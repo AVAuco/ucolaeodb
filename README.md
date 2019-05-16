@@ -11,7 +11,8 @@ in each frame with bounding boxes, and then annotate each head pair as LAEO or n
 If you use this dataset in your work, please, cite [1].
 
 ### Download
-The videos and annotations are available at the following URL: [http://rabinf24.uco.es/ucolaeo/ucolaeodb.tgz]
+The videos and annotations are available at the following URL: [http://rabinf24.uco.es/ucolaeo/ucolaeodb.tgz]    
+To download the already extracted frames, use the following URL: [http://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/UCOLAEO_v1.0_frames.tar.gz]
 
 ### Annotations
 The dataset contains 3 types of annotations:
