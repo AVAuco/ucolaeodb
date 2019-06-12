@@ -12,7 +12,12 @@ If you use this dataset in your work, please, cite [1].
 
 ### Download
 The **videos and annotations** are available at the following [URL](http://rabinf24.uco.es/ucolaeo/ucolaeodb.tgz)    
-To download the already **extracted frames**, use the following [URL](http://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/UCOLAEO_v1.0_frames.tar.gz)
+To download the already **extracted frames**, use the following [URL](http://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/UCOLAEO_v1.0_frames.tar.gz). 
+
+Alternatively, you can download and extract the videos, annotations and frames using: 
+
+    curl http://rabinf24.uco.es/ucolaeo/ucolaeodb.tgz | tar xz
+    curl http://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/UCOLAEO_v1.0_frames.tar.gz | tar xz
 
 ### Annotations
 The dataset contains 3 types of annotations:
