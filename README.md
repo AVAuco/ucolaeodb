@@ -16,8 +16,8 @@ To download the **videos**, use the following [URL](http://rabinf24.uco.es/ucola
 
 Alternatively, you can download and extract the videos, annotations and frames using: 
 
-    curl URL | tar xz
-    curl URL | tar xz
+    curl http://rabinf24.uco.es/ucolaeo/ucolaeodb_v1.1.tgz | tar xz
+    curl http://rabinf24.uco.es/ucolaeo/ucolaeodb_videos_v1.1.tgz | tar xz
 
 ### Annotations
 The dataset contains 3 types of annotations:
@@ -55,4 +55,6 @@ The file `code/uco_dbconfig.py` contains information about the videos used for v
 
 ### Acknowledgments
 
-The initial version of this dataset was compiled by Rafael Fernandez during the development of his final project (IT degree) at the [University of Cordoba](http://www.uco.es/investiga/grupos/ava/node/42).
+The initial version of this dataset was compiled by Rafael Fernandez during the development of his final project (IT degree) at the [University of Cordoba](http://www.uco.es/investiga/grupos/ava/node/42).   
+Thanks to [RSKothari](https://github.com/RSKothari) for detecting the frames' mismatch and to [Isabel Jimenez](https://github.com/IsabelJimenez99) for fixing it.
+
