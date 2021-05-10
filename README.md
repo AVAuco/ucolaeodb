@@ -27,6 +27,11 @@ The dataset contains 3 types of annotations:
 
 **WARNING**: all the annotations fit the provided frames. Therefore, there might exist some misalignment with respect to the video files.
 
+We consider the following set of LAEO annotations:
+ + 0: no LAEO.
+ + 1 (or 2): positive LAEO, where label 2 means that there are two people LAEO but the face of, at least, one of them is not clearly visible (e.g. occlusion).
+ + 9: ignore (due to uncertainty).
+
 ### Code
 After downloading the package containing the videos and annotations, within the `code` directory, run `ucolaeo_demo.py` for a quick example.
 
